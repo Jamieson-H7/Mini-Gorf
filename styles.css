@@ -1,0 +1,16 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    width: 800px;
+    height: 600px;
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(89, 89, 138), rgb(121, 156, 121)) 10;
+    background: rgba(128, 128, 128, 0.5);
+}
